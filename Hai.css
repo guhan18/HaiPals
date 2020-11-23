@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.app{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(226, 238, 245);
+}
+
+.mobile_app{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 30%;
+    background: rgb(235, 239, 243);
+}
+
+.mobile__header{
+    display: flex;
+    align-items: center;
+    height: 20%;
+    padding-left: 20px;
+    border-bottom: 2px solid #3f51b5;
+}
+.mobile__header > h2{
+    color: #616060;
+    padding-left: 20px;
+}
+
+.mobile__form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.submit__button{
+    padding: 10px !important;
+    font-weight: 800 !important;
+}
